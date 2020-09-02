@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/***** Header *****/
+
+.main-header {
+  background-image: url('/img/header-background.png');
+  background-size: cover;
+  height: 75vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-links {
+  display: flex;
+
+  li {
+    list-style-type: none;
+    margin-top: 1em;
+
+    a {
+      padding: 1em;
+      color: white;
+    }
+
+
+  }
+
+
+}
+
+.company-name {
+  font-size: 3em;
+  text-align: center;
+  color: #53678d;
+  font-weight: normal;
+  position: relative;
+  top: .5em;
+  margin-left: 1em;
+  width: 50%;
+}
+
+/***** Banner *****/
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5em;
+
+  .navbar-banner {
+    color: #414f6b;
+
+    .logo-text {
+      font-size: 1em;
+      width: 30%;
+      line-height: 12px;
+      margin-top: 1em;
+    }
+
+    a {
+      color: #414f6b;
+    }
+  }
+}
+
+/***** History *****/
+
+.main-content {
+  background-image: url('/img/peak.png');
+  background-size: cover;
+  height: 100vh;
+  color: #414f6b;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+
+  .history {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 60%;
+    margin-left: 1em;
+
+
+    .big-number {
+      font-size: 4em;
+    }
+
+    .history-text {
+      font-size: .85em;
+      font-weight: lighter;
+    }
+
+  }
+
+  .carousel {
+    background-color: rgba(56, 69, 92, 0.7);
+    display: flex;
+    justify-content: center;
+
+
+    img {
+      width: 90px;
+      height: 80px;
+      padding: 1em;
+    }
+  }
+}
+
+/***** Climb Banner *****/
+
+.climb {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #414f6b;
+
+  .big-number {
+    font-size: 4em;
+  }
+
+  .climb-text {
+    width: 50%;
+  }
+}
+
+/***** Mountain Banner *****/
+
+.mountain-banner {
+  background-color: #414f6b;
+  padding: .5em;
+
+  .mountain-links {
+    padding-left: 2em;
+
+    a {
+      color: #b0b4be;
+
+    }
+  }
+}
+
+/***** Schedule *****/
+
+.schedule {
+  background-image: url('/img/schedule-bg.png');
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  padding-top: 2em;
+
+  color: #414f6b;
+
+  .schedule-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(242, 244, 247, 0.7);
+    margin: 1em;
+    padding: 1em;
+
+    .schedule-title {
+      width: 50%;
+    }
+
+    .dates {
+      padding-top: 1em;
+      font-size: .5em;
+      font-family: 'Lato', sans-serif;
+
+      span {
+        padding-left: 2em;
+      }
+
+      .last-date {
+        padding-left: 3em;
+      }
+    }
+  }
+}
+
+/***** Footer *****/
+
+.main-footer {
+  background-color: #414f6b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #63769d;
+  padding: 1em;
+
+  .footer-logo {
+    display: flex;
+
+
+    .logo-text {
+      font-size: 1em;
+      width: 40%;
+      line-height: 12px;
+      margin-top: 1em;
+      padding-left: .5em;
+    }
+
+  }
+}

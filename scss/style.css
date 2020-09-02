@@ -1,0 +1,250 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/***** Header *****/
+.main-header {
+  background-image: url("/img/header-background.png");
+  background-size: cover;
+  height: 75vh;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.navbar-links li a {
+  padding: 1em;
+  color: white;
+}
+
+.company-name {
+  font-size: 3em;
+  text-align: center;
+  color: #53678d;
+  font-weight: normal;
+  position: relative;
+  top: .5em;
+  margin-left: 1em;
+  width: 50%;
+}
+
+/***** Banner *****/
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5em;
+}
+
+.banner .navbar-banner {
+  color: #414f6b;
+}
+
+.banner .navbar-banner .logo-text {
+  font-size: 1em;
+  width: 30%;
+  line-height: 12px;
+  margin-top: 1em;
+}
+
+.banner .navbar-banner a {
+  color: #414f6b;
+}
+
+/***** History *****/
+.main-content {
+  background-image: url("/img/peak.png");
+  background-size: cover;
+  height: 100vh;
+  color: #414f6b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-content .history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 60%;
+  margin-left: 1em;
+}
+
+.main-content .history .big-number {
+  font-size: 4em;
+}
+
+.main-content .history .history-text {
+  font-size: .85em;
+  font-weight: lighter;
+}
+
+.main-content .carousel {
+  background-color: rgba(56, 69, 92, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-content .carousel img {
+  width: 90px;
+  height: 80px;
+  padding: 1em;
+}
+
+/***** Climb Banner *****/
+.climb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #414f6b;
+}
+
+.climb .big-number {
+  font-size: 4em;
+}
+
+.climb .climb-text {
+  width: 50%;
+}
+
+/***** Mountain Banner *****/
+.mountain-banner {
+  background-color: #414f6b;
+  padding: .5em;
+}
+
+.mountain-banner .mountain-links {
+  padding-left: 2em;
+}
+
+.mountain-banner .mountain-links a {
+  color: #b0b4be;
+}
+
+/***** Schedule *****/
+.schedule {
+  background-image: url("/img/schedule-bg.png");
+  background-size: cover;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2em;
+  color: #414f6b;
+}
+
+.schedule .schedule-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 50%;
+  height: 60%;
+  background-color: rgba(242, 244, 247, 0.7);
+  margin: 1em;
+  padding: 1em;
+}
+
+.schedule .schedule-container .schedule-title {
+  width: 50%;
+}
+
+.schedule .schedule-container .dates {
+  padding-top: 1em;
+  font-size: .5em;
+  font-family: 'Lato', sans-serif;
+}
+
+.schedule .schedule-container .dates span {
+  padding-left: 2em;
+}
+
+.schedule .schedule-container .dates .last-date {
+  padding-left: 3em;
+}
+
+/***** Footer *****/
+.main-footer {
+  background-color: #414f6b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #63769d;
+  padding: 1em;
+}
+
+.main-footer .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-footer .footer-logo .logo-text {
+  font-size: 1em;
+  width: 40%;
+  line-height: 12px;
+  margin-top: 1em;
+  padding-left: .5em;
+}
+/*# sourceMappingURL=style.css.map */
